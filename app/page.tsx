@@ -1,4 +1,5 @@
 import { TimesheetForm } from "@/components/timesheet-form";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
+        <Image className="hero-logo" src="/logo-wakanda.png" alt="" width={360} height={360} priority aria-hidden="true" />
         <p className="eyebrow">// APONTAMENTO DE HORAS</p>
         <h1>Seu mês de trabalho,<br /><em>sem complicação.</em></h1>
         <p className="hero-copy">
